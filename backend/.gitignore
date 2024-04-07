@@ -1,0 +1,11 @@
+# Node.js
+/node_modules
+/dist
+.env
+
+# Nest.js specific
+/.env.*
+
+# IDE files
+.idea
+.vscode
