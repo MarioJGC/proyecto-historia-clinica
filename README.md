@@ -1,6 +1,6 @@
-# Proyecto NombreDelProyecto
+# Proyecto Historia Clinica UC
 
-Este es un proyecto que utiliza Angular para el frontend, Nest.js para el backend y MySQL como base de datos. El objetivo principal de este proyecto es [describir aquí el objetivo principal del proyecto].
+Este es un proyecto que utiliza Angular para el frontend, Nest.js para el backend y MySQL como base de datos. El objetivo principal de este proyecto es proporcionar una plataforma integral para la gestión de historias clínicas de pacientes en el ámbito de la odontología. La aplicación permitirá a los profesionales de la odontología registrar y acceder de manera eficiente a la información relevante de los pacientes, incluyendo historiales médicos, tratamientos realizados, radiografías, notas de consulta, entre otros datos pertinentes.
 
 ## Instalación
 
@@ -9,22 +9,22 @@ Este es un proyecto que utiliza Angular para el frontend, Nest.js para el backen
 Asegúrate de tener instalado lo siguiente antes de comenzar:
 
 - Node.js y npm: [Descargar e Instalar](https://nodejs.org/)
-- Angular CLI: `npm install -g @angular/cli`
-- Nest CLI: `npm install -g @nestjs/cli`
-- MySQL Server: [Descargar e Instalar](https://dev.mysql.com/downloads/mysql/)
+- Angular CLI: `npm i @angular/cli@16.2.10`
+- Nest CLI: `npm i @nestjs/core@10.2.8`
+- MySQL Server: `https://dev.mysql.com/downloads/mysql/8.0.html`
 
 ### Pasos de Instalación
 
 1. Clona este repositorio en tu máquina local:
 
     ```bash
-    git clone https://github.com/tu_usuario/NombreDelProyecto.git
+    git clone https://github.com/MarioJGC/proyecto-historia-clinica.git
     ```
 
 2. Instala las dependencias del frontend y backend:
 
     ```bash
-    cd NombreDelProyecto/frontend
+    cd proyecto-historia-clinica/frontend
     npm install
 
     cd ../backend
@@ -33,7 +33,7 @@ Asegúrate de tener instalado lo siguiente antes de comenzar:
 
 3. Configura la base de datos MySQL:
 
-    - Crea una base de datos MySQL llamada `nombre_base_de_datos`.
+    - Crea una base de datos MySQL llamada `db_historia_clinica`.
     - En el archivo `backend/src/config/database.config.ts`, configura los detalles de tu base de datos:
 
     ```typescript
@@ -85,4 +85,4 @@ Si quieres contribuir a este proyecto, sigue estos pasos:
 
 ## Licencia
 
-Este proyecto está bajo la licencia [nombre de la licencia]. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
