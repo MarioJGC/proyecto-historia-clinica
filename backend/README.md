@@ -36,6 +36,10 @@ $ yarn install
 $ docker compose up -d
 ```
 
+## Guia para entender Nest.js
+
+- Author - [bluuweb](https://bluuweb.dev/nestjs/crud-mysql.html#nestjs)
+
 ## Iniciar app
 
 ```bash
